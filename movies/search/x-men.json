@@ -1,0 +1,76 @@
+{
+    "Search": [
+        {
+            "Title": "X-Men: Days of Future Past",
+            "Year": "2014",
+            "imdbID": "tt1877832",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGIzNWYzN2YtMjcwYS00YjQ3LWI2NjMtOTNiYTUyYjE2MGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: First Class",
+            "Year": "2011",
+            "imdbID": "tt1270798",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men",
+            "Year": "2000",
+            "imdbID": "tt0120903",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU4ODZlYTMtZDg4Yi00OGUzLWEzYjUtZjE2ZmM0NTZkYTQ2XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men 2",
+            "Year": "2003",
+            "imdbID": "tt0290334",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDk0NjYxMzIzOF5BMl5BanBnXkFtZTYwMTc1MjU3._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: The Last Stand",
+            "Year": "2006",
+            "imdbID": "tt0376994",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1NTg2ODA2Nl5BMl5BanBnXkFtZTcwMDc2MjEzMw@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men Origins: Wolverine",
+            "Year": "2009",
+            "imdbID": "tt0458525",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWRhMzdhMzEtZTViNy00YWYyLTgxZmUtMTMwMWM0NTEyMjk3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: Apocalypse",
+            "Year": "2016",
+            "imdbID": "tt3385516",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men",
+            "Year": "1992–1997",
+            "imdbID": "tt0103584",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3Mzk4ODU3Ml5BMl5BanBnXkFtZTcwMDA2OTYyMQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Wolverine and the X-Men",
+            "Year": "2008–",
+            "imdbID": "tt0772145",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: Evolution",
+            "Year": "2000–2003",
+            "imdbID": "tt0247827",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMzE0ODQyOF5BMl5BanBnXkFtZTcwMTc5NzUyMQ@@._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "82",
+    "Response": "True"
+}

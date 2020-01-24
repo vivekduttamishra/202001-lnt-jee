@@ -1,0 +1,26 @@
+{
+  "Title": "Batman: The Animated Series",
+  "Year": "1992–1995",
+  "Rated": "TV-PG",
+  "Released": "05 Sep 1992",
+  "Runtime": "23 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "N/A",
+  "Writer": "Bill Finger, Bob Kane, Eric Radomski, Bruce Timm, Paul Dini",
+  "Actors": "Kevin Conroy, Efrem Zimbalist Jr., Robert Hastings",
+  "Plot":
+    "The Dark Knight battles crime in Gotham City with occasional help from Robin and Batgirl.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "Won 1 Primetime Emmy. Another 3 wins & 19 nominations.",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI5OWU0MjYtMmMwZi00YTRiLTljMDAtODQ0ZGYxMDljN2E0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+  "Ratings": [{ "Source": "Internet Movie Database", "Value": "9.0/10" }],
+  "Metascore": "N/A",
+  "imdbRating": "9.0",
+  "imdbVotes": "62,556",
+  "imdbID": "tt0103359",
+  "Type": "series",
+  "totalSeasons": "4",
+  "Response": "True"
+}

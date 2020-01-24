@@ -1,0 +1,35 @@
+{
+  "Title": "Batman Returns",
+  "Year": "1992",
+  "Rated": "PG-13",
+  "Released": "19 Jun 1992",
+  "Runtime": "126 min",
+  "Genre": "Action, Adventure",
+  "Director": "Tim Burton",
+  "Writer":
+    "Bob Kane (Batman characters), Daniel Waters (story), Sam Hamm (story), Daniel Waters (screenplay)",
+  "Actors":
+    "Michael Keaton, Danny DeVito, Michelle Pfeiffer, Christopher Walken",
+  "Plot":
+    "When a corrupt businessman and the grotesque Penguin plot to take control of Gotham City, only Batman can stop them, while the Catwoman has her own agenda.",
+  "Language": "English",
+  "Country": "USA, UK",
+  "Awards": "Nominated for 2 Oscars. Another 2 wins & 23 nominations.",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BOGZmYzVkMmItM2NiOS00MDI3LWI4ZWQtMTg0YWZkODRkMmViXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_SX300.jpg",
+  "Ratings": [
+    { "Source": "Internet Movie Database", "Value": "7.0/10" },
+    { "Source": "Rotten Tomatoes", "Value": "81%" },
+    { "Source": "Metacritic", "Value": "68/100" }
+  ],
+  "Metascore": "68",
+  "imdbRating": "7.0",
+  "imdbVotes": "232,096",
+  "imdbID": "tt0103776",
+  "Type": "movie",
+  "DVD": "29 Apr 1997",
+  "BoxOffice": "N/A",
+  "Production": "Warner Bros. Pictures",
+  "Website": "N/A",
+  "Response": "True"
+}

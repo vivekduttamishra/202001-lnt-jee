@@ -1,0 +1,34 @@
+{
+  "Title": "Star Wars: Episode VI - Return of the Jedi",
+  "Year": "1983",
+  "Rated": "PG",
+  "Released": "25 May 1983",
+  "Runtime": "131 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "Richard Marquand",
+  "Writer":
+    "Lawrence Kasdan (screenplay by), George Lucas (screenplay by), George Lucas (story by)",
+  "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",
+  "Plot":
+    "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "Nominated for 4 Oscars. Another 20 wins & 16 nominations.",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BODllZjg2YjUtNWEzNy00ZGY2LTgyZmQtYTkxNDYyOWM3OTUyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+  "Ratings": [
+    { "Source": "Internet Movie Database", "Value": "8.4/10" },
+    { "Source": "Rotten Tomatoes", "Value": "80%" },
+    { "Source": "Metacritic", "Value": "53/100" }
+  ],
+  "Metascore": "53",
+  "imdbRating": "8.4",
+  "imdbVotes": "761,775",
+  "imdbID": "tt0086190",
+  "Type": "movie",
+  "DVD": "12 Sep 2006",
+  "BoxOffice": "N/A",
+  "Production": "Twentieth Century Fox",
+  "Website": "http://www.starwars.com/episode-vi/",
+  "Response": "True"
+}

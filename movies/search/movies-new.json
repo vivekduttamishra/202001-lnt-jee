@@ -1,0 +1,374 @@
+{
+    "Search": [
+        {
+            "Title": "Harry Potter and the Deathly Hallows: Part 2",
+            "Year": "2011",
+            "imdbID": "tt1201607",
+            "Type": "movie",
+            "Poster": "/images/tt1201607.jpg",
+            "imdbRating": "8.1"
+        },
+        {
+            "Title": "Harry Potter and the Sorcerer's Stone",
+            "Year": "2001",
+            "imdbID": "tt0241527",
+            "Type": "movie",
+            "Poster": "/images/tt0241527.jpg",
+            "imdbRating": "7.5"
+        },
+        {
+            "Title": "Harry Potter and the Chamber of Secrets",
+            "Year": "2002",
+            "imdbID": "tt0295297",
+            "Type": "movie",
+            "Poster": "/images/tt0295297.jpg",
+            "imdbRating": "7.4"
+        },
+        {
+            "Title": "Harry Potter and the Goblet of Fire",
+            "Year": "2005",
+            "imdbID": "tt0330373",
+            "Type": "movie",
+            "Poster": "/images/tt0330373.jpg",
+            "imdbRating": "7.7"
+        },
+        {
+            "Title": "Harry Potter and the Prisoner of Azkaban",
+            "Year": "2004",
+            "imdbID": "tt0304141",
+            "Type": "movie",
+            "Poster": "/images/tt0304141.jpg",
+            "imdbRating": "7.8"
+        },
+        {
+            "Title": "Harry Potter and the Order of the Phoenix",
+            "Year": "2007",
+            "imdbID": "tt0373889",
+            "Type": "movie",
+            "Poster": "/images/tt0373889.jpg",
+            "imdbRating": "7.5"
+        },
+        {
+            "Title": "Harry Potter and the Deathly Hallows: Part 1",
+            "Year": "2010",
+            "imdbID": "tt0926084",
+            "Type": "movie",
+            "Poster": "/images/tt0926084.jpg",
+            "imdbRating": "7.7"
+        },
+        {
+            "Title": "Harry Potter and the Half-Blood Prince",
+            "Year": "2009",
+            "imdbID": "tt0417741",
+            "Type": "movie",
+            "Poster": "/images/tt0417741.jpg",
+            "imdbRating": "7.5"
+        },
+        {
+            "Title": "Star Wars: Episode IV - A New Hope",
+            "Year": "1977",
+            "imdbID": "tt0076759",
+            "Type": "movie",
+            "Poster": "/images/tt0076759.jpg",
+            "imdbRating": "8.7"
+        },
+        {
+            "Title": "Star Wars: Episode V - The Empire Strikes Back",
+            "Year": "1980",
+            "imdbID": "tt0080684",
+            "Type": "movie",
+            "Poster": "/images/tt0080684.jpg",
+            "imdbRating": "8.8"
+        },
+        {
+            "Title": "Star Wars: Episode VI - Return of the Jedi",
+            "Year": "1983",
+            "imdbID": "tt0086190",
+            "Type": "movie",
+            "Poster": "/images/tt0086190.jpg",
+            "imdbRating": "8.4"
+        },
+        {
+            "Title": "Star Wars: The Force Awakens",
+            "Year": "2015",
+            "imdbID": "tt2488496",
+            "Type": "movie",
+            "Poster": "/images/tt2488496.jpg",
+            "imdbRating": "8.1"
+        },
+        {
+            "Title": "Star Wars: Episode I - The Phantom Menace",
+            "Year": "1999",
+            "imdbID": "tt0120915",
+            "Type": "movie",
+            "Poster": "/images/tt0120915.jpg",
+            "imdbRating": "6.5"
+        },
+        {
+            "Title": "Star Wars: Episode III - Revenge of the Sith",
+            "Year": "2005",
+            "imdbID": "tt0121766",
+            "Type": "movie",
+            "Poster": "/images/tt0121766.jpg",
+            "imdbRating": "7.6"
+        },
+        {
+            "Title": "Star Wars: Episode II - Attack of the Clones",
+            "Year": "2002",
+            "imdbID": "tt0121765",
+            "Type": "movie",
+            "Poster": "/images/tt0121765.jpg",
+            "imdbRating": "6.6"
+        },
+        {
+            "Title": "Rogue One: A Star Wars Story",
+            "Year": "2016",
+            "imdbID": "tt3748528",
+            "Type": "movie",
+            "Poster": "/images/tt3748528.jpg",
+            "imdbRating": "7.9"
+        },
+        {
+            "Title": "Star Wars: The Clone Wars",
+            "Year": "2008",
+            "imdbID": "tt1185834",
+            "Type": "movie",
+            "Poster": "/images/tt1185834.jpg",
+            "imdbRating": "5.9"
+        },
+        {
+            "Title": "Star Wars: The Clone Wars",
+            "Year": "2008\u00e2\u20ac\u201c2015",
+            "imdbID": "tt0458290",
+            "Type": "series",
+            "Poster": "/images/tt0458290.jpg",
+            "imdbRating": "8.0"
+        },
+        {
+            "Title": "Batman Begins",
+            "Year": "2005",
+            "imdbID": "tt0372784",
+            "Type": "movie",
+            "Poster": "/images/tt0372784.jpg",
+            "imdbRating": "8.3"
+        },
+        {
+            "Title": "Batman v Superman: Dawn of Justice",
+            "Year": "2016",
+            "imdbID": "tt2975590",
+            "Type": "movie",
+            "Poster": "/images/tt2975590.jpg",
+            "imdbRating": "6.6"
+        },
+        {
+            "Title": "Batman",
+            "Year": "1989",
+            "imdbID": "tt0096895",
+            "Type": "movie",
+            "Poster": "/images/tt0096895.jpg",
+            "imdbRating": "7.6"
+        },
+        {
+            "Title": "Batman Returns",
+            "Year": "1992",
+            "imdbID": "tt0103776",
+            "Type": "movie",
+            "Poster": "/images/tt0103776.jpg",
+            "imdbRating": "7.0"
+        },
+        {
+            "Title": "Batman Forever",
+            "Year": "1995",
+            "imdbID": "tt0112462",
+            "Type": "movie",
+            "Poster": "/images/tt0112462.jpg",
+            "imdbRating": "5.4"
+        },
+        {
+            "Title": "Batman & Robin",
+            "Year": "1997",
+            "imdbID": "tt0118688",
+            "Type": "movie",
+            "Poster": "/images/tt0118688.jpg",
+            "imdbRating": "3.7"
+        },
+        {
+            "Title": "Batman: The Animated Series",
+            "Year": "1992\u00e2\u20ac\u201c1995",
+            "imdbID": "tt0103359",
+            "Type": "series",
+            "Poster": "/images/tt0103359.jpg",
+            "imdbRating": "9.0"
+        },
+        {
+            "Title": "Batman: Under the Red Hood",
+            "Year": "2010",
+            "imdbID": "tt1569923",
+            "Type": "movie",
+            "Poster": "/images/tt1569923.jpg",
+            "imdbRating": "8.1"
+        },
+        {
+            "Title": "Batman: The Dark Knight Returns, Part 1",
+            "Year": "2012",
+            "imdbID": "tt2313197",
+            "Type": "movie",
+            "Poster": "/images/tt2313197.jpg",
+            "imdbRating": "8.0"
+        },
+        {
+            "Title": "Batman: The Dark Knight Returns, Part 2",
+            "Year": "2013",
+            "imdbID": "tt2166834",
+            "Type": "movie",
+            "Poster": "/images/tt2166834.jpg",
+            "imdbRating": "8.4"
+        },
+        {
+            "Title": "X-Men: Days of Future Past",
+            "Year": "2014",
+            "imdbID": "tt1877832",
+            "Type": "movie",
+            "Poster": "/images/tt1877832.jpg",
+            "imdbRating": "8.0"
+        },
+        {
+            "Title": "X-Men: First Class",
+            "Year": "2011",
+            "imdbID": "tt1270798",
+            "Type": "movie",
+            "Poster": "/images/tt1270798.jpg",
+            "imdbRating": "7.8"
+        },
+        {
+            "Title": "X-Men",
+            "Year": "2000",
+            "imdbID": "tt0120903",
+            "Type": "movie",
+            "Poster": "/images/tt0120903.jpg",
+            "imdbRating": "7.4"
+        },
+        {
+            "Title": "X-Men 2",
+            "Year": "2003",
+            "imdbID": "tt0290334",
+            "Type": "movie",
+            "Poster": "/images/tt0290334.jpg",
+            "imdbRating": "7.5"
+        },
+        {
+            "Title": "X-Men: The Last Stand",
+            "Year": "2006",
+            "imdbID": "tt0376994",
+            "Type": "movie",
+            "Poster": "/images/tt0376994.jpg",
+            "imdbRating": "6.7"
+        },
+        {
+            "Title": "X-Men Origins: Wolverine",
+            "Year": "2009",
+            "imdbID": "tt0458525",
+            "Type": "movie",
+            "Poster": "/images/tt0458525.jpg",
+            "imdbRating": "6.7"
+        },
+        {
+            "Title": "X-Men: Apocalypse",
+            "Year": "2016",
+            "imdbID": "tt3385516",
+            "Type": "movie",
+            "Poster": "/images/tt3385516.jpg",
+            "imdbRating": "7.0"
+        },
+        {
+            "Title": "X-Men",
+            "Year": "1992\u00e2\u20ac\u201c1997",
+            "imdbID": "tt0103584",
+            "Type": "series",
+            "Poster": "/images/tt0103584.jpg",
+            "imdbRating": "8.5"
+        },
+        {
+            "Title": "Wolverine and the X-Men",
+            "Year": "2008\u00e2\u20ac\u201c",
+            "imdbID": "tt0772145",
+            "Type": "series",
+            "Poster": "/images/tt0772145.jpg",
+            "imdbRating": "8.1"
+        },
+        {
+            "Title": "X-Men: Evolution",
+            "Year": "2000\u00e2\u20ac\u201c2003",
+            "imdbID": "tt0247827",
+            "Type": "series",
+            "Poster": "/images/tt0247827.jpg",
+            "imdbRating": "7.9"
+        },
+        {
+            "Title": "The Matrix",
+            "Year": "1999",
+            "imdbID": "tt0133093",
+            "Type": "movie",
+            "Poster": "/images/tt0133093.jpg",
+            "imdbRating": "8.7"
+        },
+        {
+            "Title": "The Matrix Reloaded",
+            "Year": "2003",
+            "imdbID": "tt0234215",
+            "Type": "movie",
+            "Poster": "/images/tt0234215.jpg",
+            "imdbRating": "7.2"
+        },
+        {
+            "Title": "The Matrix Revolutions",
+            "Year": "2003",
+            "imdbID": "tt0242653",
+            "Type": "movie",
+            "Poster": "/images/tt0242653.jpg",
+            "imdbRating": "6.7"
+        },
+        {
+            "Title": "The Matrix Revisited",
+            "Year": "2001",
+            "imdbID": "tt0295432",
+            "Type": "movie",
+            "Poster": "/images/tt0295432.jpg",
+            "imdbRating": "7.4"
+        },
+        {
+            "Title": "Enter the Matrix",
+            "Year": "2003",
+            "imdbID": "tt0277828",
+            "Type": "game",
+            "Poster": "/images/tt0277828.jpg",
+            "imdbRating": "6.9"
+        },
+        {
+            "Title": "The Matrix: Path of Neo",
+            "Year": "2005",
+            "imdbID": "tt0451118",
+            "Type": "game",
+            "Poster": "/images/tt0451118.jpg",
+            "imdbRating": "7.4"
+        },
+        {
+            "Title": "CR: Enter the Matrix",
+            "Year": "2009",
+            "imdbID": "tt1675286",
+            "Type": "game",
+            "Poster": "/images/tt1675286.jpg",
+            "imdbRating": "8.3"
+        },
+        {
+            "Title": "Armitage III: Dual Matrix",
+            "Year": "2002",
+            "imdbID": "tt0303678",
+            "Type": "movie",
+            "Poster": "/images/tt0303678.jpg",
+            "imdbRating": "6.5"
+        }
+    ],
+    "totalResults": "325",
+    "Response": "True"
+}

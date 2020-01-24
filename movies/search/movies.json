@@ -1,0 +1,331 @@
+{
+    "Search": [
+
+        {
+            "Title": "Harry Potter and the Deathly Hallows: Part 2",
+            "Year": "2011",
+            "imdbID": "tt1201607",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2MTk3MDQ1N15BMl5BanBnXkFtZTcwMzI4NzA2NQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Sorcerer's Stone",
+            "Year": "2001",
+            "imdbID": "tt0241527",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Chamber of Secrets",
+            "Year": "2002",
+            "imdbID": "tt0295297",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Goblet of Fire",
+            "Year": "2005",
+            "imdbID": "tt0330373",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Prisoner of Azkaban",
+            "Year": "2004",
+            "imdbID": "tt0304141",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Order of the Phoenix",
+            "Year": "2007",
+            "imdbID": "tt0373889",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Deathly Hallows: Part 1",
+            "Year": "2010",
+            "imdbID": "tt0926084",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Harry Potter and the Half-Blood Prince",
+            "Year": "2009",
+            "imdbID": "tt0417741",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg"
+        },
+        
+        {
+            "Title": "Star Wars: Episode IV - A New Hope",
+            "Year": "1977",
+            "imdbID": "tt0076759",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYzQ2OTk4N2QtOGQwNy00MmI3LWEwNmEtOTk0OTY3NDk2MGJkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: Episode V - The Empire Strikes Back",
+            "Year": "1980",
+            "imdbID": "tt0080684",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmViY2M2MTYtY2MzOS00YjQ1LWIzYmEtOTBiNjhlMGM0NjZjXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: Episode VI - Return of the Jedi",
+            "Year": "1983",
+            "imdbID": "tt0086190",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODllZjg2YjUtNWEzNy00ZGY2LTgyZmQtYTkxNDYyOWM3OTUyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: The Force Awakens",
+            "Year": "2015",
+            "imdbID": "tt2488496",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: Episode I - The Phantom Menace",
+            "Year": "1999",
+            "imdbID": "tt0120915",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2FmZGIwMzAtZTBkMS00M2JiLTk2MDctM2FlNTQ2OWYwZDZkXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: Episode III - Revenge of the Sith",
+            "Year": "2005",
+            "imdbID": "tt0121766",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: Episode II - Attack of the Clones",
+            "Year": "2002",
+            "imdbID": "tt0121765",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDRkYzA4OGYtOTBjYy00YzFiLThhYmYtMWUzMDBmMmZkM2M3XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Rogue One: A Star Wars Story",
+            "Year": "2016",
+            "imdbID": "tt3748528",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: The Clone Wars",
+            "Year": "2008",
+            "imdbID": "tt1185834",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1MDIwMTczOV5BMl5BanBnXkFtZTcwNTI4MDE3MQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Star Wars: The Clone Wars",
+            "Year": "2008–2015",
+            "imdbID": "tt0458290",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0NjQ2Mjk0OV5BMl5BanBnXkFtZTcwODQ3Njc3Mg@@._V1_SX300.jpg"
+        },
+
+        {
+            "Title": "Batman Begins",
+            "Year": "2005",
+            "imdbID": "tt0372784",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman v Superman: Dawn of Justice",
+            "Year": "2016",
+            "imdbID": "tt2975590",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman",
+            "Year": "1989",
+            "imdbID": "tt0096895",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman Returns",
+            "Year": "1992",
+            "imdbID": "tt0103776",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODM2OTc0Njg2OF5BMl5BanBnXkFtZTgwMDA4NjQxMTE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman Forever",
+            "Year": "1995",
+            "imdbID": "tt0112462",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWY3M2I0YzItNzA1ZS00MzE3LThlYTEtMTg2YjNiOTYzODQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman & Robin",
+            "Year": "1997",
+            "imdbID": "tt0118688",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGQ5YTM1NmMtYmIxYy00N2VmLWJhZTYtN2EwYTY3MWFhOTczXkEyXkFqcGdeQXVyNTA2NTI0MTY@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman: The Animated Series",
+            "Year": "1992–1995",
+            "imdbID": "tt0103359",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU3MjcwNzY3NF5BMl5BanBnXkFtZTYwNzA2MTI5._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman: Under the Red Hood",
+            "Year": "2010",
+            "imdbID": "tt1569923",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTdlODI0YTYtNjk5ZS00YzZjLTllZjktYmYzNWM4NmI5MmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman: The Dark Knight Returns, Part 1",
+            "Year": "2012",
+            "imdbID": "tt2313197",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzIxMDkxNDM2M15BMl5BanBnXkFtZTcwMDA5ODY1OQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman: The Dark Knight Returns, Part 2",
+            "Year": "2013",
+            "imdbID": "tt2166834",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1Mjk1NTY2NV5BMl5BanBnXkFtZTgwMTA2MDEwNzE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: Days of Future Past",
+            "Year": "2014",
+            "imdbID": "tt1877832",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGIzNWYzN2YtMjcwYS00YjQ3LWI2NjMtOTNiYTUyYjE2MGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: First Class",
+            "Year": "2011",
+            "imdbID": "tt1270798",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men",
+            "Year": "2000",
+            "imdbID": "tt0120903",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU4ODZlYTMtZDg4Yi00OGUzLWEzYjUtZjE2ZmM0NTZkYTQ2XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men 2",
+            "Year": "2003",
+            "imdbID": "tt0290334",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDk0NjYxMzIzOF5BMl5BanBnXkFtZTYwMTc1MjU3._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: The Last Stand",
+            "Year": "2006",
+            "imdbID": "tt0376994",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1NTg2ODA2Nl5BMl5BanBnXkFtZTcwMDc2MjEzMw@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men Origins: Wolverine",
+            "Year": "2009",
+            "imdbID": "tt0458525",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWRhMzdhMzEtZTViNy00YWYyLTgxZmUtMTMwMWM0NTEyMjk3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: Apocalypse",
+            "Year": "2016",
+            "imdbID": "tt3385516",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men",
+            "Year": "1992–1997",
+            "imdbID": "tt0103584",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3Mzk4ODU3Ml5BMl5BanBnXkFtZTcwMDA2OTYyMQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Wolverine and the X-Men",
+            "Year": "2008–",
+            "imdbID": "tt0772145",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "X-Men: Evolution",
+            "Year": "2000–2003",
+            "imdbID": "tt0247827",
+            "Type": "series",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMzE0ODQyOF5BMl5BanBnXkFtZTcwMTc5NzUyMQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Matrix",
+            "Year": "1999",
+            "imdbID": "tt0133093",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDMyMmQ5YzgtYWMxOC00OTU0LWIwZjEtZWUwYTY5MjVkZjhhXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Matrix Reloaded",
+            "Year": "2003",
+            "imdbID": "tt0234215",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0NDM5MDY2OF5BMl5BanBnXkFtZTcwNzg5OTEzMw@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Matrix Revolutions",
+            "Year": "2003",
+            "imdbID": "tt0242653",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MjM3NTE1Ml5BMl5BanBnXkFtZTYwODM4MDg3._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Matrix Revisited",
+            "Year": "2001",
+            "imdbID": "tt0295432",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIzMTA4NDI4NF5BMl5BanBnXkFtZTYwNjg5Nzg4._V1_SX300.jpg"
+        },
+        {
+            "Title": "Enter the Matrix",
+            "Year": "2003",
+            "imdbID": "tt0277828",
+            "Type": "game",
+            "Poster": "http://ia.media-imdb.com/images/M/MV5BMjA4NTYwNjk0M15BMl5BanBnXkFtZTgwODk3MDMwMTE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Matrix: Path of Neo",
+            "Year": "2005",
+            "imdbID": "tt0451118",
+            "Type": "game",
+            "Poster": "http://ia.media-imdb.com/images/M/MV5BYWM2ZWU5MDUtYTU2ZS00ZDFmLWIyNGEtNWZkMjRmZjI2YzMzXkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "CR: Enter the Matrix",
+            "Year": "2009",
+            "imdbID": "tt1675286",
+            "Type": "game",
+            "Poster": "http://ia.media-imdb.com/images/M/MV5BMTExMzY3NTQ1NjleQTJeQWpwZ15BbWU3MDAyMjk2NzM@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Armitage III: Dual Matrix",
+            "Year": "2002",
+            "imdbID": "tt0303678",
+            "Type": "movie",
+            "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTUwOTY3Mjg1MF5BMl5BanBnXkFtZTcwODI2MTAyMQ@@._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "325",
+    "Response": "True"
+}
