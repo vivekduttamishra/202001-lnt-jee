@@ -1,9 +1,10 @@
 package in.conceptarchitect.movieservice;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class User {
+public class User implements Serializable	{
 	
 	String name;
 	String email; //user id

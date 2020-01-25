@@ -1,6 +1,8 @@
 package in.conceptarchitect.movieservice;
 
-public class Review {
+import java.io.Serializable;
+
+public class Review implements Serializable{
 	
 	int reviewId; //unqiue identifier
 	int rating; //1-10

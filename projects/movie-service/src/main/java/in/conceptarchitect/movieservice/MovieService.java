@@ -3,17 +3,25 @@ package in.conceptarchitect.movieservice;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 
+@Component
 public class MovieService {
 
 	//I will not create the repository myself
 	// because its not my choice where user want to save the data
 	// DEPENDENCY INVERSION a.k.a DEPENCNECY ABSTRACTION
+	
+   
 	Repository<Movie, String> movieRepository;
 	
 
-	
+	public MovieService() {
+		
+		System.out.println("Zero Argument Constructor is called for Movie Service");
+	}
 
 	public Repository<Movie, String> getMovieRepository() {
 		return movieRepository;
@@ -25,7 +33,10 @@ public class MovieService {
 //	}
 
 	// you have to give me the repository <---- DEPENDENCY INJECTION <--- CONSTRUCTOR BASED
+	
+	@Autowired
 	public MovieService(Repository<Movie, String> repository) {
+		System.out.println(" Constructor is called for Movie Service with "+repository);
 		movieRepository=repository;
 	}
 	
@@ -40,6 +51,7 @@ public class MovieService {
 		if (valid) {
 			// TODO: step 2: if it is valid add to repository
 			String id = movieRepository.add(movie);
+			movieRepository.save();
 			return id != null; // movie was added properly
 		} else {
 			return false;
@@ -84,6 +96,7 @@ public class MovieService {
 
 	public void deleteMovie(String imdbId) {
 		movieRepository.remove(imdbId);
+		movieRepository.save();
 	}
 
 	public void updateMovie(String imdbId, Movie movie) {
@@ -98,6 +111,7 @@ public class MovieService {
 		oldMovie.plot=movie.poster;
 		
 		movieRepository.update(imdbId, oldMovie);
+		movieRepository.save();
 	}
 
 }

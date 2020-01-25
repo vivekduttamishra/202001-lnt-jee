@@ -7,10 +7,13 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.HashMap;
 
+import org.springframework.stereotype.Component;
+
 import in.conceptarchitect.movieservice.Movie;
 
 //import in.conceptarchitect.movieservice.Movie;
 
+@Component
 public class MovieStore implements Serializable{
 
 	HashMap<String, Movie> movies=new HashMap<String,Movie>();

@@ -23,5 +23,15 @@ public class Input {
 			return "";
 		}
 	}
+	
+	public static int readInt(String prompt) {
+		try {
+			return Integer.parseInt(readString(prompt));
+			
+		}catch(Exception ex) {
+			return 0;
+		}
+	}
+	
 
 }

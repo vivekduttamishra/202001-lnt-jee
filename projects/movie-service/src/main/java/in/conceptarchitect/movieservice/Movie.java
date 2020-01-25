@@ -1,8 +1,9 @@
 package in.conceptarchitect.movieservice;
 
+import java.io.Serializable;
 import java.util.Collection;
 
-public class Movie {
+public class Movie implements Serializable{
 	
 	String imdbId; //unique identifier
 	String name; //name of movie/tv shows/games

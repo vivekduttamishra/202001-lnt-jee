@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+     
+     
+     <!-- Movie store= MovieStore.load("c:/temp/movies") -->
+     <bean id='store' 
+     		class="in.conceptarchitect.movies.repository.flatfile.MovieStore"
+     		factory-method="load">
+     		<constructor-arg value="c:/temp/movies.db"/>
+     </bean>
+     
+     
+     <!-- 
+      FlatFileMovieRepository repository=new FlatFileMovieRepository();
+      repository.setStore(store);
+      -->
+     <bean id='repository' 
+     		class="in.conceptarchitect.movies.repository.flatfile.FlatFileMovieRepository">
+     		<property name="store" ref='store'/>
+     </bean>
+     
+     
+     
+     <!--
+     MovieService service=new MovieService(repository) 
+      -->
+     <bean class='in.conceptarchitect.movieservice.MovieService' id='service'>
+        <!--  constructor injection -->
+     	<constructor-arg ref="repository"/>
+     
+     	<!-- <property name="movieRepository" ref="repository"/> --> 
+     </bean>
+     
+     
+ </beans>

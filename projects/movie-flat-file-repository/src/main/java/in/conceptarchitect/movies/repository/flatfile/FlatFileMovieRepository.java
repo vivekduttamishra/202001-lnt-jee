@@ -6,18 +6,25 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Collection;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
 import in.conceptarchitect.movieservice.Movie;
 import in.conceptarchitect.movieservice.Repository;
 
-
+@Component
 public class FlatFileMovieRepository implements Repository<Movie,String>{
 	
+	//@Autowired
 	MovieStore store;
 
 	public MovieStore getStore() {
 		return store;
 	}
 
+	@Autowired //<--- inject the requirement
+	@Qualifier("mainMovieStore")
 	public void setStore(MovieStore store) {
 		this.store = store;
 	}
