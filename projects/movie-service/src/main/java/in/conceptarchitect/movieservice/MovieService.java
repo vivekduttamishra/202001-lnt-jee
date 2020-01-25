@@ -7,7 +7,28 @@ import java.util.Collection;
 
 public class MovieService {
 
+	//I will not create the repository myself
+	// because its not my choice where user want to save the data
+	// DEPENDENCY INVERSION a.k.a DEPENCNECY ABSTRACTION
 	Repository<Movie, String> movieRepository;
+	
+
+	
+
+	public Repository<Movie, String> getMovieRepository() {
+		return movieRepository;
+	}
+
+	// you have to give me the repository <---- DEPENDENCY INJECTION <--- SETTER BASED
+//	public void setMovieRepository(Repository<Movie, String> movieRepository) {
+//		this.movieRepository = movieRepository;
+//	}
+
+	// you have to give me the repository <---- DEPENDENCY INJECTION <--- CONSTRUCTOR BASED
+	public MovieService(Repository<Movie, String> repository) {
+		movieRepository=repository;
+	}
+	
 
 	public boolean addMovie(Movie movie) {
 		// step 1: is movie object valid?
@@ -27,6 +48,8 @@ public class MovieService {
 
 	private boolean validate(Movie movie) {
 		// TODO Auto-generated method stub
+		if(movie==null)
+			return false;
 		String imdbId = movie.getImdbId();
 		if (imdbId == null)
 			return false;

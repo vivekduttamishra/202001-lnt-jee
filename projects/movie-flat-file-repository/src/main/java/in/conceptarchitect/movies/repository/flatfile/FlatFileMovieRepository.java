@@ -6,18 +6,34 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Collection;
 
+import in.conceptarchitect.movieservice.Movie;
+import in.conceptarchitect.movieservice.Repository;
+
 
 public class FlatFileMovieRepository implements Repository<Movie,String>{
 	
 	MovieStore store;
 
+	public MovieStore getStore() {
+		return store;
+	}
+
+	public void setStore(MovieStore store) {
+		this.store = store;
+	}
+
 	public String add(Movie entity) {
 		// TODO Auto-generated method stub
+		if(entity==null || entity.getImdbId()==null)
+			return null;
 		
 		Movie current=getById(entity.getImdbId());
+		
 		if(current!=null) //if a movie with same id exists		
 			return null;
+		
 		store.add(entity);
+		
 		return entity.getImdbId();
 		
 	}
@@ -29,6 +45,8 @@ public class FlatFileMovieRepository implements Repository<Movie,String>{
 
 	public Movie getById(String id) {
 		// TODO Auto-generated method stub
+		if(id==null)
+			return null;
 		return store.movies.get(id.toLowerCase());
 	}
 
@@ -44,31 +62,6 @@ public class FlatFileMovieRepository implements Repository<Movie,String>{
 	}
 
 	public void save() {
-		// TODO Auto-generated method stub
-		try {
-			ObjectOutputStream writer=new ObjectOutputStream(new FileOutputStream(store.path));
-			writer.writeObject(store);
-			writer.close();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			throw new RuntimeException(e.getMessage(),e);
-		}
-	}	
-	public static FlatFileMovieRepository load(String path) {
-		
-		FlatFileMovieRepository repository=new FlatFileMovieRepository();
-		
-		try {
-			ObjectInputStream reader=new ObjectInputStream(new FileInputStream(path));
-			repository.store=(MovieStore) reader.readObject();
-			
-		}catch(Exception ex) {
-			//the file may not exist. It is ok. we may want to start from scratch
-			repository.store=new MovieStore();
-		}
-		repository.store.path=path;
-		return repository;
-		
+		store.save();
 	}
-
 }
