@@ -24,7 +24,7 @@ public class FlatFileMovieRepository implements Repository<Movie,String>{
 	}
 
 	@Autowired //<--- inject the requirement
-	@Qualifier("mainMovieStore")
+	//@Qualifier("mainMovieStore")
 	public void setStore(MovieStore store) {
 		this.store = store;
 	}

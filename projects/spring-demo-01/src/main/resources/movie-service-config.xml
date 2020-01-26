@@ -13,7 +13,7 @@
     
     <context:component-scan base-package="in.conceptarchitect"/>
      
-     <bean id='mainMovieStore' class="in.conceptarchitect.movies.repository.flatfile.MovieStore"
+     <bean id='movieStore' class="in.conceptarchitect.movies.repository.flatfile.MovieStore"
      		factory-method="load"
      		c:path="c:/temp/movies.db"  />     		
       
