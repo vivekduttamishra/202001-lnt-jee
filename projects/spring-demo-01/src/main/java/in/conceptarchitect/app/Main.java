@@ -1,6 +1,7 @@
 package in.conceptarchitect.app;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import in.conceptarchitect.movies.repository.flatfile.FlatFileMovieRepository;
@@ -55,11 +56,53 @@ public class Main {
 	}
 
 	private static MovieService getMovieService() {
-		
+		System.out.println("creating the context...");
+		ApplicationContext context=new AnnotationConfigApplicationContext(MovieServiceConfig.class);
+		return context.getBean(MovieService.class);
+	}
+
+	
+	private static MovieService getMovieServiceXmlConfig() {
+		System.out.println("creating the context...");
 		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("classpath:/movie-service-config.xml");
 		return context.getBean(MovieService.class);
 	}
+
+	private static MovieService getMovieServiceTest() {
+		System.out.println("creating the context...");
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("classpath:/movie-service-config.xml");
+		System.out.println("context created...");
+		
+		System.out.println("testing UserRepositories");
+		
+		requestUserRepository(context,"singletonUserRepository");
+		requestUserRepository(context,"singletonUserRepository");
+		requestUserRepository(context,"singletonUserRepository");
+		
+		requestUserRepository(context, "lazyUserRepository"); //object is created here
+		requestUserRepository(context, "lazyUserRepository"); //reused here
+		requestUserRepository(context, "lazyUserRepository"); //reused here
+		
+		requestUserRepository(context, "prototypeUserRepository"); //new object
+		requestUserRepository(context, "prototypeUserRepository"); //another new object
+		requestUserRepository(context, "prototypeUserRepository"); //yet anohter new object
+		
+		
+		System.out.println("test ends...");
+		
+		
+		System.out.println("requesting for MovieService...");
+		return context.getBean(MovieService.class);
+	}
 	
+	private static void requestUserRepository(ClassPathXmlApplicationContext context, String beanId) {
+		// TODO Auto-generated method stub
+		System.out.println("requesting for "+beanId);
+		Object o= context.getBean(beanId);
+		System.out.println("Got object "+o.hashCode());
+		System.out.println("\n");
+	}
+
 	private static MovieService _getMovieService() {
 		MovieStore store=MovieStore.load("c:/temp/movies.db"); //Factory Method
 		FlatFileMovieRepository rep=new FlatFileMovieRepository();

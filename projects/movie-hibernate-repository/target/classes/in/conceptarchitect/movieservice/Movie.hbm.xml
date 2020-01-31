@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "in.conceptarchitect.movieservice.Movie" table = "MOVIE_TABLE">
+       
+      <id name = "imbdId" type = "string" column = "imdbId" >
+         
+      </id>
+      
+      <property name = "name" column = "title" type = "string"/>
+      <property name = "poster" column = "poster" type = "string"/>
+      <property name = "imdbRating" column = "imdbRating" type = "double"/>
+      
+      
+   </class>
+</hibernate-mapping>

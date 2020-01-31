@@ -5,17 +5,32 @@ import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 
-@Component
+@Service  //alias for --> @Component
 public class MovieService {
 
 	//I will not create the repository myself
 	// because its not my choice where user want to save the data
+	// Data source may be sql server or mongo db or some rest/soap service
 	// DEPENDENCY INVERSION a.k.a DEPENCNECY ABSTRACTION
-	
-   
+	   
 	Repository<Movie, String> movieRepository;
+	
+//  you have to give me the repository <---- DEPENDENCY INJECTION <--- SETTER BASED
+	public void setMovieRepository(Repository<Movie, String> movieRepository) {
+		this.movieRepository = movieRepository;
+	}
+
+	// you have to give me the repository <---- DEPENDENCY INJECTION <--- CONSTRUCTOR BASED
+	@Autowired
+	public MovieService(Repository<Movie, String> repository) {
+		System.out.println(" Constructor is called for Movie Service with "+repository);
+		movieRepository=repository;
+	}
+	
+
 	
 
 	public MovieService() {
@@ -27,19 +42,6 @@ public class MovieService {
 		return movieRepository;
 	}
 
-	// you have to give me the repository <---- DEPENDENCY INJECTION <--- SETTER BASED
-//	public void setMovieRepository(Repository<Movie, String> movieRepository) {
-//		this.movieRepository = movieRepository;
-//	}
-
-	// you have to give me the repository <---- DEPENDENCY INJECTION <--- CONSTRUCTOR BASED
-	
-	@Autowired
-	public MovieService(Repository<Movie, String> repository) {
-		System.out.println(" Constructor is called for Movie Service with "+repository);
-		movieRepository=repository;
-	}
-	
 
 	public boolean addMovie(Movie movie) {
 		// step 1: is movie object valid?

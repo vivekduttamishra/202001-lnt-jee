@@ -31,7 +31,7 @@ public class User implements Serializable	{
 	}
 
 	public void setEmail(String email) {
-		this.email = email;
+		this.email = email.toLowerCase();
 	}
 
 	public String getPassword() {
@@ -39,7 +39,8 @@ public class User implements Serializable	{
 	}
 
 	public void setPassword(String password) {
-		this.password = password;
+		
+			this.password = password;
 	}
 
 	public String getPhotoUrl() {

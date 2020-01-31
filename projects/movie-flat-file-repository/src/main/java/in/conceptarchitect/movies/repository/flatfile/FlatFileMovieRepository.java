@@ -1,24 +1,22 @@
 package in.conceptarchitect.movies.repository.flatfile;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import in.conceptarchitect.movieservice.Movie;
-import in.conceptarchitect.movieservice.Repository;
 
-@Component
-public class FlatFileMovieRepository implements Repository<Movie,String>{
+@Repository    //---> alias@Component
+public class FlatFileMovieRepository implements in.conceptarchitect.movieservice.Repository<Movie,String>{
 	
 	//@Autowired
 	MovieStore store;
 
+	public FlatFileMovieRepository() {
+		System.out.println("Movie Repository Object is created");
+	}
+	
 	public MovieStore getStore() {
 		return store;
 	}
@@ -26,6 +24,7 @@ public class FlatFileMovieRepository implements Repository<Movie,String>{
 	@Autowired //<--- inject the requirement
 	//@Qualifier("mainMovieStore")
 	public void setStore(MovieStore store) {
+		System.out.println("Setting Store to "+store);
 		this.store = store;
 	}
 

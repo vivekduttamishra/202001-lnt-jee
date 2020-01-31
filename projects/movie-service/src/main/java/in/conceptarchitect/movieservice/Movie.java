@@ -3,10 +3,24 @@ package in.conceptarchitect.movieservice;
 import java.io.Serializable;
 import java.util.Collection;
 
+import javax.annotation.processing.Generated;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="MOVIE_TABLE")
 public class Movie implements Serializable{
+
 	
+	@Id
+	@Column(unique = true, nullable = false, name = "IMDB_ID")
 	String imdbId; //unique identifier
+
+	@Column(name="MOVIE_TITLE")
 	String name; //name of movie/tv shows/games
+	
 	String type;
 	String poster;
 	double imdbRating;

@@ -43,7 +43,7 @@ public class MovieStore implements Serializable{
 		
 		//FlatFileMovieRepository repository=new FlatFileMovieRepository();
 		MovieStore store=null;
-		
+		System.out.println("MovieStore Load called");
 		try {
 			ObjectInputStream reader=new ObjectInputStream(new FileInputStream(path));
 			store=(MovieStore) reader.readObject();

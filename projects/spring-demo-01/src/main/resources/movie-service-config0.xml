@@ -21,6 +21,7 @@
       -->
      <bean id='repository' 
      		class="in.conceptarchitect.movies.repository.flatfile.FlatFileMovieRepository">
+     		<!-- invokes setStore() method and NOT the store field -->
      		<property name="store" ref='store'/>
      </bean>
      
@@ -29,7 +30,9 @@
      <!--
      MovieService service=new MovieService(repository) 
       -->
-     <bean class='in.conceptarchitect.movieservice.MovieService' id='service'>
+     <bean
+     	id='movieService'
+      class='in.conceptarchitect.movieservice.MovieService' >
         <!--  constructor injection -->
      	<constructor-arg ref="repository"/>
      
