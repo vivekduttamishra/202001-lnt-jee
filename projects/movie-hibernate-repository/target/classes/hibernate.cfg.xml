@@ -1,40 +1,32 @@
-<?xml version = "1.0" encoding = "utf-8"?>
-<!DOCTYPE hibernate-configuration SYSTEM 
-"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-   <session-factory>
-   
-      <property name = "hibernate.dialect">
-         org.hibernate.dialect.MySQLDialect
-      </property>
-      
-      <property name = "hibernate.connection.driver_class">
-         com.mysql.cj.jdbc.Driver
-      </property>
-      
-      <!-- Assume test is the database name -->
-      
-      <property name = "hibernate.connection.url">
-         jdbc:mysql://localhost/movies_lnt
-      </property>
-      
-      <property name = "hibernate.connection.username">
-         root
-      </property>
-      
-      <property name = "hibernate.connection.password">
-         root
-      </property>
-      
-      <property name="hbm2ddl.auto">create</property>
-      <property name="show_sql">true</property>
-      
-      <!-- List of XML mapping files -->
-      <!-- 
-      <mapping resource = "in/conceptarchitect/movieservice/Movies.hbm.xml"/>
-       -->
-       
-       <mapping class="in.conceptarchitect.movieservice.Movie"  />
-      
-   </session-factory>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/movies_lnt?useSSL=false</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <!-- JDBC connection pool settings ... using built-in test pool -->
+        <property name="connection.pool_size">1</property>
+        <!-- Select our SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <!-- Echo the SQL to stdout -->
+        <property name="show_sql">true</property>
+        <!-- Set the current session context -->
+        <property name="current_session_context_class">thread</property>
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">none</property>
+        <!-- dbcp connection pool configuration -->
+        <property name="hibernate.dbcp.initialSize">5</property>
+        <property name="hibernate.dbcp.maxTotal">20</property>
+        <property name="hibernate.dbcp.maxIdle">10</property>
+        <property name="hibernate.dbcp.minIdle">5</property>
+        <property name="hibernate.dbcp.maxWaitMillis">-1</property>
+        
+        <mapping class="in.conceptarchitect.movieservice.Movie" />
+        <mapping class="in.conceptarchitect.movieservice.Review" />
+    </session-factory>
 </hibernate-configuration>

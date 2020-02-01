@@ -2,46 +2,28 @@ package in.conceptarchitect.movieservice.repository.hibernate;
 
 import java.util.Collection;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
+import org.hibernate.Transaction;
 
 import in.conceptarchitect.movieservice.Movie;
-import in.conceptarchitect.movieservice.Repository;
 
-public class MovieHibernateRepository implements Repository<Movie, String> {
-	
-	SessionFactory factory;
-	
-	public MovieHibernateRepository() {
-		
-		 // loads configuration and mappings
-        Configuration configuration = new Configuration().configure();
-        ServiceRegistry serviceRegistry
-            = new StandardServiceRegistryBuilder()
-                .applySettings(configuration.getProperties()).build();         
-        // builds a session factory from the service registry
-        factory = configuration.buildSessionFactory(serviceRegistry);                
-        
-         
-	}
-	
-	
+public class MovieHibernateRepository //implements Repository<Movie, String> {
+	{
 	
 
-	public String add(Movie entity) {
+	public String add(final Movie entity) {
 		// TODO Auto-generated method stub
 		//Driver
-		factory.openSession().persist(entity); //auto generate insert query
+		//getSession().persist(entity); //auto generate insert query
+		HibernateUtils.transact(session->session.save(entity));
+		
 		return entity.getImdbId();
 	}
 
 	public Collection<Movie> getAll() {
 		// TODO Auto-generated method stub
-		return factory.openSession()
-				.createQuery("from Movie", Movie.class) //auto generate select 
-				.list();   //map the results to a List of Movie
+		return HibernateUtils.query("from Movie", Movie.class);
 	}
 
 	public Movie getById(String id) {

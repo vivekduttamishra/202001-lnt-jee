@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+   <session-factory>
+   
+      <property name = "hibernate.dialect">
+         org.hibernate.dialect.MySQLDialect
+      </property>
+      
+      <property name = "hibernate.connection.driver_class">
+         com.mysql.cj.jdbc.Driver
+      </property>
+      
+      <!-- Assume test is the database name -->
+      
+      <property name = "hibernate.connection.url">
+         jdbc:mysql://localhost/movies_lnt
+      </property>
+      
+      <property name = "hibernate.connection.username">
+         root
+      </property>
+      
+      <property name = "hibernate.connection.password">
+         root
+      </property>
+      
+      <property name="hbm2ddl.auto">create</property>
+      <property name="show_sql">true</property>
+      
+      <!-- List of XML mapping files -->
+      <!-- 
+      <mapping resource = "in/conceptarchitect/movieservice/Movies.hbm.xml"/>
+       -->
+       
+       <mapping class="in.conceptarchitect.movieservice.Movie"  />
+      
+   </session-factory>
+</hibernate-configuration>

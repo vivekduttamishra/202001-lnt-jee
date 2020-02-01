@@ -6,7 +6,9 @@ import java.util.Collection;
 import javax.annotation.processing.Generated;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -15,7 +17,7 @@ public class Movie implements Serializable{
 
 	
 	@Id
-	@Column(unique = true, nullable = false, name = "IMDB_ID")
+	@Column(unique = true, nullable = false, name = "IMDB_ID", columnDefinition = "VARCHAR(16)")
 	String imdbId; //unique identifier
 
 	@Column(name="MOVIE_TITLE")
@@ -27,6 +29,7 @@ public class Movie implements Serializable{
 	String plot;
 	String genre;
 	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "movie")
 	Collection<Review> reviews; //reviews done for current movie
 	
 	public Movie(String imdbId, String name, String type, String poster, double imdbRating, String plot, String genre) {
@@ -90,9 +93,9 @@ public class Movie implements Serializable{
 				+ imdbRating + ", plot=" + plot + ", genre=" + genre + "]";
 	}
 	
-	public void addReview(Review review) {
-		reviews.add(review);
-	}
+	
+	 public void addReview(Review review) { reviews.add(review); }
+	 public Collection<Review> getReviews(){ return reviews; }
 	
 	
 
