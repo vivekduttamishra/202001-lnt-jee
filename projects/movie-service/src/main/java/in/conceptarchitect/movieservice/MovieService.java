@@ -116,4 +116,9 @@ public class MovieService {
 		movieRepository.save();
 	}
 
+	public Movie getMovieByid(String imdbId) {
+		// TODO Auto-generated method stub
+		return movieRepository.getById(imdbId);
+	}
+
 }

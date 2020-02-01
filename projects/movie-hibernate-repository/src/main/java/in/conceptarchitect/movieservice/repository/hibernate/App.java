@@ -28,10 +28,10 @@ public class App {
 			Movie flash = new Movie("tt2222", "Flash", "TV Show", "flash.png", 7.8, "TV Show about DC superhero Flash",
 					"superhero");
 
-			Review review1 = new Review(0, 8, "Great Biopic. Historic!", gandhi);
-			Review review2 = new Review(0, 7, "Each season taking story down", flash);
-			Review review3 = new Review(0, 9, "Depiction of characters are excellent", gandhi);
-			Review review4 = new Review(0, 5, "Slow!", flash);
+			Review review1 = new Review(8, "Great Biopic. Historic!", gandhi);
+			Review review2 = new Review(7, "Each season taking story down", flash);
+			Review review3 = new Review(9, "Depiction of characters are excellent", gandhi);
+			Review review4 = new Review(5, "Slow!", flash);
 
 			session.save(gandhi);
 			session.save(flash);
@@ -47,9 +47,11 @@ public class App {
 		// TODO Auto-generated method stub
 		for (Movie movie : service.getAll()) {
 			System.out.println(movie.getImdbId() + "\t\t" + movie.getName());
-			for(Review review : movie.getReviews())
-				System.out.println("\t"+review.getRating()+"\t"+review.getDescription());
-			System.out.println();
+			if (Input.readString("Need Reviews").contentEquals("y")) {
+				for (Review review : movie.getReviews())
+					System.out.println("\t" + review.getRating() + "\t" + review.getDescription());
+				System.out.println();
+			}
 		}
 	}
 

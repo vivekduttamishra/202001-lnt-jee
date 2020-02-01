@@ -18,6 +18,47 @@ import javax.persistence.ManyToOne;
 @Table(name="Reviews")
 public class Review implements Serializable{
 	
+
+	@Id
+	@Column(name="id")
+	@GeneratedValue(strategy =GenerationType.IDENTITY )
+	int reviewId; //unqiue identifier
+	
+	@Column(name="rating")
+	int rating; //1-10
+	
+	@Column(name="details")
+	String description;
+	
+	//about which movie?
+	//String imbdId; //optional
+	
+	@ManyToOne
+	@JoinColumn(name="imdbId")
+	Movie movie;   //review is about a movie
+	
+	//who reviewed it?	
+	//User user;
+
+	public Review( int rating, String description, Movie movie) {
+		super();
+		//this.reviewId = reviewId;
+		this.rating = rating;
+		this.description = description;
+		this.movie = movie;
+		//this.user = user;
+	}
+
+	public Review() {
+		super();
+	}
+
+	@Override
+	public String toString() {
+		return "Review [reviewId=" + reviewId + ", rating=" + rating + ", description=" + description + ", movie="
+				+ movie  + "]";
+	}
+	
 	public int getReviewId() {
 		return reviewId;
 	}
@@ -50,44 +91,5 @@ public class Review implements Serializable{
 		this.movie = movie;
 	}
 
-	@Id
-	@Column(name="id")
-	@GeneratedValue(strategy =GenerationType.IDENTITY )
-	int reviewId; //unqiue identifier
-	
-	@Column(name="rating")
-	int rating; //1-10
-	
-	@Column(name="details")
-	String description;
-	
-	//about which movie?
-	//String imbdId; //optional
-	
-	@ManyToOne
-	@JoinColumn(name="imdbId")
-	Movie movie;   //review is about a movie
-	
-	//who reviewed it?	
-	//User user;
-
-	public Review(int reviewId, int rating, String description, Movie movie) {
-		super();
-		this.reviewId = reviewId;
-		this.rating = rating;
-		this.description = description;
-		this.movie = movie;
-		//this.user = user;
-	}
-
-	public Review() {
-		super();
-	}
-
-	@Override
-	public String toString() {
-		return "Review [reviewId=" + reviewId + ", rating=" + rating + ", description=" + description + ", movie="
-				+ movie  + "]";
-	} 
 	
 }

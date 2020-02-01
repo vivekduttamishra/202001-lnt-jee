@@ -3,13 +3,12 @@ package in.conceptarchitect.movieservice.repository.hibernate;
 import java.util.Collection;
 
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 
 import in.conceptarchitect.movieservice.Movie;
+import in.conceptarchitect.movieservice.Repository;
 
-public class MovieHibernateRepository //implements Repository<Movie, String> {
-	{
+public class MovieHibernateRepository implements Repository<Movie, String> {
+	
 	
 
 	public String add(final Movie entity) {
@@ -28,7 +27,11 @@ public class MovieHibernateRepository //implements Repository<Movie, String> {
 
 	public Movie getById(String id) {
 		// TODO Auto-generated method stub
-		return null;
+		Session session=HibernateUtils.getSessionFactory().openSession();
+		
+		Movie movie= session.get(Movie.class, id);
+		
+		return movie;
 	}
 
 	public void remove(String id) {

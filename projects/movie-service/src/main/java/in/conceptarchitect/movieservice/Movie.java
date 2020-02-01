@@ -3,7 +3,6 @@ package in.conceptarchitect.movieservice;
 import java.io.Serializable;
 import java.util.Collection;
 
-import javax.annotation.processing.Generated;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -17,15 +16,20 @@ public class Movie implements Serializable{
 
 	
 	@Id
-	@Column(unique = true, nullable = false, name = "IMDB_ID", columnDefinition = "VARCHAR(16)")
+	@Column(unique = true, 
+	nullable = false, 
+	name = "IMDB_ID", 
+	columnDefinition = "VARCHAR(16)")
 	String imdbId; //unique identifier
 
 	@Column(name="MOVIE_TITLE")
 	String name; //name of movie/tv shows/games
-	
+
+	//@Transient
 	String type;
 	String poster;
 	double imdbRating;
+	@Column(name="plot", columnDefinition = "VARCHAR(2000)")
 	String plot;
 	String genre;
 	

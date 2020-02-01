@@ -4,9 +4,22 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="USERS")
 public class User implements Serializable	{
 	
+	
 	String name;
+	@Id
+	@Column(unique = true, 
+	nullable = false, 
+	name = "email", 
+	columnDefinition = "VARCHAR(16)")
 	String email; //user id
 	String password; 
 	String photoUrl;
